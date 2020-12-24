@@ -1,0 +1,893 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+}
+
+.btn {
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    position: relative;
+    top: 4px;
+    transition: 0.5s;
+}
+
+.a:hover {
+    position: relative;
+    left: 10px;
+    transition: 0.5s;
+}
+
+.nav {
+    background-color: rgb(4, 86, 248);
+}
+
+.nav2 {
+    padding: 0 100px
+}
+
+.nav2 ul li {
+    margin: 0 14px;
+}
+
+.sec-1 {
+    position: relative;
+    padding: 50px 40px 30px 40px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.img1 {
+    position: relative;
+    left: -60px;
+}
+
+.sec-1 div {
+    position: relative;
+    top: 50px;
+    width: 50%;
+    padding-left: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-1 h1 {
+    position: relative;
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.sec-1 .btn {
+    background-color: #1A66FF;
+    border-radius: 4px;
+}
+
+.sec-1 .btn:hover {
+    background-color: rgb(17, 85, 221);
+    border-radius: 4px;
+}
+
+/* Style untuk sec-2 */
+.sec-2 {
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.content-sec2 {
+    position: relative;
+    top: 200px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.content-sec2-show {
+    position: relative;
+    top: 0px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.img-sec2 {
+    position: relative;
+    top: 200px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.img-sec2-show {
+    position: relative;
+    top: 0px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.sec-2 div {
+    width: 50%;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-2 h1 {
+    font-size: 45px;
+}
+
+.sec-2 p {
+    position: relative;
+    margin-top: 25px;
+    width: 70%;
+}
+
+.sec-2 .a {
+    position: relative;
+    top: 35px;
+}
+
+
+
+/* Style untuk sec-3 */
+.sec-3 {
+    position: relative;
+    padding: 80px 130px;
+    width: 100%;
+    background-color: #EBFEF9;
+}
+
+.content-sec3 {
+    position: relative;
+    top: 200px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.content-sec3-show {
+    position: relative;
+    top: 0px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.img-sec3 {
+    position: relative;
+    top: 200px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.img-sec3-show {
+    position: relative;
+    top: 0px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.sec-3 div {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-3 h1 {
+    font-size: 45px;
+}
+
+.sec-3 p {
+    position: relative;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.sec-3 a {
+    position: relative;
+    top: 40px;
+    color: rgb(21, 201, 233);
+}
+
+.sec-3 img {
+    position: relative;
+    left: 60px;
+    width: 145px;
+    margin: auto;
+}
+
+/* style untuk sec-4 */
+
+.sec-4  {
+    position: relative;
+    background-color: #EBFEF9;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.content-sec4 {
+    position: relative;
+    left: -100%;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.content-sec4-show {
+    position: relative;
+    left: 0%;
+    opacity: 1;
+    transition: 0.8s;
+}
+
+.wrap-div div {
+    position: relative;
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+
+.wrap-div div:hover {
+    position: relative;
+    transition: 0.5s;
+    transform: scale(0.86);
+    cursor: pointer;
+}
+
+/* Style untuk sec-5 */
+.sec-5 {
+    position: relative;
+    padding: 110px 130px 80px 130px;
+    width: 100%;
+    background-color: white;
+}
+
+.content-sec5 {
+    position: relative;
+    top: 200px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.content-sec5-show {
+    position: relative;
+    top: 0px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.img-sec5 {
+    position: relative;
+    top: 200px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.img-sec5-show {
+    position: relative;
+    top: 0px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.sec-5 div {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-5 h1 {
+    font-size: 45px;
+}
+
+.sec-5 p {
+    position: relative;
+    margin-top: 45px;
+    width: 100%;
+}
+
+.sec-5 a {
+    position: relative;
+    top: 40px;
+    color: rgb(29, 121, 207);
+}
+
+.sec-5 img {
+    position: relative;
+    top: -20px;
+    left: 90px;
+    width: 150px;
+    margin: auto;
+}
+
+.sec-5 .btn {
+    position: relative;
+    margin-top: 60px;
+    background-color: #1A66FF;
+    border-radius: 4px;
+}
+
+.sec-5 .btn:hover {
+    background-color: rgb(17, 85, 221);
+    border-radius: 4px;
+}
+
+/* Style untuk sec-6 */
+.sec-6 {
+    position: relative;
+    padding: 80px 130px;
+    width: 100%;
+    background-color: white;
+}
+
+.content-sec6 {
+    position: relative;
+    top: 200px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.content-sec6-show {
+    position: relative;
+    top: 0px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.img-sec6 {
+    position: relative;
+    top: 200px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.img-sec6-show {
+    position: relative;
+    top: 0px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.sec-6 div {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-6 h1 {
+    font-size: 45px;
+}
+
+.sec-6 p {
+    position: relative;
+    margin-top: 35px;
+    width: 70%;
+}
+
+.sec-6 a {
+    position: relative;
+    top: 40px;
+    color: rgb(21, 148, 233);
+}
+
+.sec-6 img {
+    position: relative;
+    left: 90px;
+    width: 85%;
+    margin: auto;
+}
+
+.sec-footer  {
+    position: relative;
+    background-color: white;
+    padding: 50px 40px 30px 40px;
+    font-size: 17px;
+    border-top: 1px solid rgb(236, 236, 236);
+}
+
+.content-secf {
+    position: relative;
+    margin-left: 200px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.content-secf-show {
+    position: relative;
+    margin-left: 0px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.content-secf2 {
+    position: relative;
+    margin-left: 200px;
+    opacity: 0;
+    transition: 8s;
+}
+
+.content-secf2-show {
+    position: relative;
+    margin-left: 0px;
+    opacity: 1;
+    transition: 8s;
+}
+
+.img-secf {
+    position: relative;
+    margin-left: 200px;
+    opacity: 0;
+    transition: 3s;
+}
+
+.img-secf-show {
+    position: relative;
+    margin-left: 0px;
+    opacity: 1;
+    transition: 3s;
+}
+
+.img-secf3 {
+    position: relative;
+    margin-left: 200px;
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.img-secf3-show {
+    position: relative;
+    margin-left: 0px;
+    opacity: 1;
+    transition: 0.7s;
+}
+
+.sec-footer .wrap-div {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.com {
+    position: relative;
+    padding-left: 0;
+    width: 40%;
+}
+
+.com2 {
+    position: relative;
+    width: 18%;
+}
+
+.sec-footer h3 {
+    margin-bottom: 10px;
+}
+
+.com2 li {
+    margin: 0 0 13px 0;
+}
+
+.sec-footer .wrap-div div {
+    position: relative;
+    position: relative;
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+.dashboard {
+    display: none;
+}
+
+@media(max-width: 950px) {
+
+body {
+    overflow-x: hidden;
+}
+
+.nav2 {
+    display: none;
+}
+
+.dashboard {
+    position: fixed;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    opacity: 1;
+    text-align: left;
+    display: inline;
+    transition: 0.5s;
+}
+
+.dashboard-show {
+    position: fixed;
+    left: 0%;
+}
+
+.toggle-btn {
+    position: absolute;
+    z-index: 99;
+    top: 57px;
+    right: -65px;
+    width: auto;
+    height: auto;
+    padding: 2px;
+    border-radius: 5px;
+    border: 2px solid rgb(114, 114, 114);
+    transform: scale(0.8);
+    background-color: #fff;
+}
+
+.toggle-btn:hover {
+    position: absolute;
+    cursor: pointer;
+    transform: scale(0.82);
+}
+
+.dashboard i {
+    position: relative;
+    margin-left: auto;
+    font-size: 35px;
+    margin: 2px;
+}
+
+.fa-times {
+    color: red;
+    background-color: #fff;
+}
+
+.dashboard ul {
+    padding: 15px 10px;
+}
+
+.dashboard ul li {
+    list-style: none;
+    font-weight: 500;
+    margin: 20px 0;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: rgb(75, 75, 75);
+}
+
+.dashboard ul li:hover {
+    position: relative;
+    left: 10px;
+    transition: 0.5s;
+    color: grey;
+    cursor: pointer;
+}
+
+.sec-1 {
+    position: relative;
+    padding: 30px 20px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.sec-1 div {
+    width: 100%;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-1 h1 {
+    font-size: 2rem;
+    width: auto;
+}
+
+.sec-1 .btn {
+    position: relative;
+    left: 0px;
+    background-color: #1A66FF;
+    border-radius: 4px;
+}
+
+.sec-1 img {
+    display: none;
+}
+
+.sec-2 {
+    position: relative;
+    padding: 30px 5px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.sec-2 div {
+    width: 100%;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-2 h1 {
+    font-size: 2rem;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.sec-2 p {
+    position: relative;
+    margin-top: 25px;
+    margin-left: 20px;
+    width: auto;
+}
+
+.sec-2 img {
+    position: relative;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.sec-2 a {
+    position: relative;
+    top: 40px;
+    margin-left: 20px;
+}
+
+.sec-2 .a {
+    position: relative;
+    top: 35px;
+}
+
+/* Style untuk sec-3 */
+.sec-3 {
+    position: relative;
+    padding: 60px 20px 70px 20px;
+    height: auto;
+    width: 100%;
+    background-color: #EBFEF9;
+}
+
+.sec-3 div {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-3 h1 {
+    position: relative;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.sec-3 p {
+    position: relative;
+    margin-top: 25px;
+    width: auto;
+}
+
+.sec-3 a {
+    position: relative;
+    margin-top: 40px;
+    color: rgb(21, 201, 233);
+}
+
+.sec-3 img {
+    position: relative;
+    left: 70px;
+    width: 165px;
+    margin: auto;
+    display: none;
+}
+
+.sec-4  {
+    position: relative;
+    background-color: #EBFEF9;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sec-4 .wrap-div {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: auto;
+}
+
+.wrap-div div {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.wrap-div div:hover {
+    position: relative;
+    transition: 0.5s;
+    transform: scale(0.86);
+    cursor: pointer;
+}
+
+.sec-4 .wrap-div {
+    position: relative;
+    background-color: #EBFEF9;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.wrap-div div {
+    position: relative;
+    width: 100%;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.wrap-div div:hover {
+    position: relative;
+    transition: 0.5s;
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+.img1 {
+    position: relative;
+    left: 0px;
+    margin: auto;
+}
+
+/* Style untuk sec-5 */
+.sec-5 {
+    position: relative;
+    padding: 60px 20px 0px 20px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.sec-5 div {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-5 h1 {
+    font-size: 2rem;
+}
+
+.sec-5 p {
+    position: relative;
+    margin-top: 45px;
+    width: auto;
+    padding: 0 5px
+}
+
+.sec-5 a {
+    position: relative;
+    top: 40px;
+    color: rgb(29, 121, 207);
+}
+
+.sec-5 img {
+    position: relative;
+    top: -20px;
+    left: 90px;
+    width: 150px;
+    margin: auto;
+}
+
+.sec-5 .btn {
+    position: relative;
+    margin-top: 60px;
+    background-color: #1A66FF;
+    border-radius: 4px;
+}
+
+.sec-5 .btn:hover {
+    background-color: rgb(17, 85, 221);
+    border-radius: 4px;
+}
+.sec-6 {
+    position: relative;
+    padding: 80px 20px;
+    width: 100%;
+    background-color: white;
+}
+
+.sec-6 div {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-6 h1 {
+    position: relative;
+    font-size: 2rem;
+}
+
+.sec-6 p {
+    position: relative;
+    margin-top: 35px;
+    width: 70%;
+}
+
+.sec-6 a {
+    position: relative;
+    top: 40px;
+    color: rgb(21, 148, 233);
+}
+
+.sec-6 img {
+    position: relative;
+    left: 0px;
+    width: 100%;
+    margin: auto;
+}
+
+.sec-footer  {
+    position: relative;
+    background-color: white;
+    padding: 50px 30px 30px 30px;
+    font-size: 17px;
+    border-top: 1px solid rgb(236, 236, 236);
+}
+
+.sec-footer .wrap-div {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.com {
+    position: relative;
+    padding-left: 0;
+    width: 100%;
+}
+
+.com2 {
+    position: relative;
+    width: 100%;
+}
+
+.sec-footer h3 {
+    margin-bottom: 10px;
+}
+
+.com2 li {
+    margin: 0 0 13px 0;
+}
+
+.sec-footer .wrap-div div {
+    position: relative;
+    position: relative;
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+.copy {
+    position: relative;
+    padding-top: 40px;
+}
+
+}
